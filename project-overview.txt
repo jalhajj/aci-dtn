@@ -32,7 +32,3 @@ Implementation Plan
 
 To overcome the connection problem, we will be using
 solutions developed for "delay tolerant networking".
-Specifically, we
-
-Planned Demo
------------------
