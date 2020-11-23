@@ -1,0 +1,38 @@
+Project Group
+---------------
+Firoz Nadeer
+Giray Pultar
+Jad Alhajj
+Leo Cartel
+
+Project Overview
+-----------------
+Our project for the ACI course is to design and implement a
+system to measure the noise levels in parts of a city
+using a Raspberry Pi.
+
+We would like to design a device that is designed to be
+installed on lamp posts throughout the city. The devices
+will not be connected to a network full time; but will
+only be able to connect to the network from time to time,
+such as when a vehicle with internet access passes by.
+
+The sound recorded from the microphones on the Pi will be
+analyzed (using a very simple algorithm) to generate a
+average loudness level, once per minute. These values
+will be sent to a cloud server. A web page can be accessed
+to show a timeline of noise levels in different points
+in the city.
+
+The challenge in this project is that devices only have
+intermittent connectivity.
+
+Implementation Plan
+---------------------
+
+To overcome the connection problem, we will be using
+solutions developed for "delay tolerant networking".
+Specifically, we
+
+Planned Demo
+-----------------
